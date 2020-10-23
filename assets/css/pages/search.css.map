@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,8BAA+B;EAC7B,aAAa,EAAE,wCAA6C;;AAG9D,+BAAgC;EAC9B,MAAM,EAAE,eAAe;EACvB,UAAU,EAAE,IAAI",
+"sources": ["search.scss"],
+"names": [],
+"file": "search.css"
+}
