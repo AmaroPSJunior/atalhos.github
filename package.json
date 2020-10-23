@@ -1,0 +1,15 @@
+{
+  "name": "cussiculo.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AmaroPSJunior/cussiculo.io.git",
+  "author": "Amaro Silva <arcamos.j@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "node-sass --watch scss --output css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

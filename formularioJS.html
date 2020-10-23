@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Inscrição Realizada</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import fontawesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/formularioJS.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="linha-top">
+        <div class="borda-central row margin00">
+            <div class="container div-logo">
+                <img class="logo" src="img/logo-unisl.svg" alt="Logo Faculdade São Lucas">
+            </div>
+        </div>
+    </div>
+    <div class="container caixa-alta row">
+        <h1 class="titulo-pagina col s12 center">formulario funcionalidades javascript</h1>
+        <div>
+            <form action="" name="form-dados col s12">
+                <div class="item-form col s4">
+                    <div class="portador-row row">
+                        <div class="genero col">
+                            <input name="g-genero" value="Masculino" type="radio" id="id-genero-m" />
+                            <label for="id-genero-m">Masculino</label>
+                        </div>
+                        <div class="genero col">
+                            <input name="g-genero" value="Ferminino" type="radio" id="id-genero-f" />
+                            <label for="id-genero-f">Ferminino</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-form col s6">
+                </div>
+                <div class="input-field item-form col s6">
+                    <input name="nome" type="text" id="id-nome" required>
+                    <label for="id-nome">Nome*</label>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+                <div class="input-field input-field item-form col s2">
+                    <input name="idade" type="text" id="id-idade" required>
+                    <label for="id-idade">Idade*</label>
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <div class="input-field item-form col s2">
+                    <input name="telefone" type="text" id="id-telefone" required>
+                    <label for="id-telefone">Telefone*</label>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+            </form>
+        </div>
+
+        <div class="btn-concluir center  col s12">
+            <a class="waves-effect waves-light btn" id="btn-salvar">Salvar
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            </a>
+            <input name="group1" type="radio" checked />
+        </div>
+        <div class="tabela col 12">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <a class="ttt" id="btn-salvar">Salvar
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+    </a>
+    <footer>
+        <hr class="linha-buttom">
+        <p class="text-footer center">&copy; 2018 - Centro Universitario São Lucas - Todos os direitos reservados</p>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+</body>
+
+</html>

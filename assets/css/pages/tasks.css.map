@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAIA,eAAgB;EACd,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EANgB,UAAU;EAQjC,6BAAc;IACZ,MAAM,EAAE,CAAC;;AAOX,+BAAgB;EACd,UAAU,ECklCsB,IAAM;EDhlCtC,iDAAkB;IAChB,UAAU,EAAE,gCAAmB",
-"sources": ["tasks.scss","../_bootstrap/_variables.scss"],
-"names": [],
-"file": "tasks.css"
-}

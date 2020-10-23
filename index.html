@@ -1,104 +1,76 @@
 <!DOCTYPE html>
-
-<html lang="en" class="default-style layout-fixed layout-navbar-fixed">
+<html lang=”pt-br”>
 
 <head>
-    <title>Energy Bit Club</title>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="Empire is one of the unique admin template built on top of Bootstrap 4 framework. It is easy to customize, flexible code styles, well tested, modern & responsive are the topmost key factors of Empire Dashboard Template" />
-    <meta name="keywords" content="bootstrap admin template, dashboard template, backend panel, bootstrap 4, backend template, dashboard template, saas admin, CRM dashboard, eCommerce dashboard">
-    <meta name="author" content="" />
-    <link rel="icon" type="image/x-icon" href="assets/img/logotipo.png">
-
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
-    <!-- Icon fonts -->
-    <link rel="stylesheet" href="assets/fonts/fontawesome.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.css">
-    <link rel="stylesheet" href="assets/fonts/linearicons.css">
-    <link rel="stylesheet" href="assets/fonts/open-iconic.css">
-    <link rel="stylesheet" href="assets/fonts/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="assets/fonts/feather.css">
-
-    <!-- Core stylesheets -->
-    <link rel="stylesheet" href="assets/css/bootstrap-material.css">
-    <link rel="stylesheet" href="assets/css/shreerang-material.css">
-    <link rel="stylesheet" href="assets/css/uikit.css">
-
-    <!-- Libs -->
-    <link rel="stylesheet" href="assets/libs/perfect-scrollbar/perfect-scrollbar.css">
-    <!-- Page -->
-    <link rel="stylesheet" href="assets/css/pages/authentication.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vestibular São Lucas</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
+    <link type="text/css" rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.min.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Import fontawesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- [ Preloader ] Start -->
-    <div class="page-loader">
-        <div class="bg-primary"></div>
-    </div>
-    <!-- [ Preloader ] End -->
+    
+    <nav><i class="fas fa-bars" data-activates="slide-out"></i></nav>
 
-    <!-- [ content ] Start -->
-    <div class="authentication-wrapper authentication-1 px-4">
-        <div class="authentication-inner py-5">
-
-            <!-- [ Logo ] Start -->
-            <div class="d-flex justify-content-center align-items-center">
-                <div class="ui-w-140">
-                    <div class="w-100 position-relative">
-                        <img src="assets/img/logo.png" alt="Brand Logo" class="img-fluid">
-                    </div>
+    <ul id="slide-out" class="side-nav collapsible" data-collapsible="accordion">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="img/images.png">
                 </div>
+                <a href="#!user"><img class="circle" src="img/amaro.png"></a>
+                <a href="#!name"><span class="white-text name">Nome</span></a>
+                <a href="#!email"><span class="white-text email">Email@gmail.com</span></a>
             </div>
-            <!-- [ Logo ] End -->
-
-            <!-- [ Form ] Start -->
-            <form class="my-5">
-                <div class="form-group">
-                    <label class="form-label">Login</label>
-                    <input type="text" class="form-control">
-                    <div class="clearfix"></div>
-                </div>
-                <div class="form-group">
-                    <label class="form-label d-flex justify-content-between align-items-end"><span>Senha</span></label>
-                    <input type="password" class="form-control">
-                    <div class="clearfix"></div>
-                </div>
-                <div class="d-flex justify-content-center align-items-center m-0">
-                    <!-- <button type="button" class="btn btn-primary">Entrar</button> -->
-                    <a class="btn btn-primary" href="dashboard.html">Entrar</a>
-                </div>
-            </form>
-            <!-- [ Form ] End -->
-
-            <div class="text-center text-muted">
-                Não tem uma conta ainda?
-                <a href="register.html">Inscrever-se</a>
-                <a href="password-reset.html" class="d-block small py-3">Esqueceu a senha?</a>
+        </li>
+        <li>
+            <div class="collapsible-header">
+                Links
             </div>
+            <div class="collapsible-body">
+                <a class="waves-effect" href="cracha.html" target="_blank">Formulario cadastro cracha</a>
+                <a class="waves-effect" href="dados-candidatos.html" target="_blank">dados candidatos</a>
+                <a class="waves-effect" href="formularioJS.html" target="_blank">formularioJS</a>
+                <a class="waves-effect" href="inscrição-realizada.html" target="_blank">inscrição</a>
+            </div>
+        </li>
 
-        </div>
-    </div>
-    <!-- [ content ] End -->
+        <li>
+            <div class="collapsible-header">
+                Projetos
+            </div>
+            <div class="collapsible-body">
+                <a class="waves-effect" href="http://sitereact.herokuapp.com" target="_blank">React</a>
+                <a class="waves-effect" href="#!">Arduino</a>
+                <a class="waves-effect" href="#!">Node</a>
+            </div>
+        </li>
 
-    <!-- Core scripts -->
-    <script src="assets/js/pace.js"></script>
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/libs/popper/popper.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/sidenav.js"></script>
-    <script src="assets/js/layout-helpers.js"></script>
-    <script src="assets/js/material-ripple.js"></script>
+        <li>
+            <div class="collapsible-header">
+                Experimentos e testes
+            </div>
+            <div class="collapsible-body">
+                <a class="waves-effect" href="#!">materializecss</a>
+                <a class="waves-effect" href="bootstrap.html" target="_blank">Bootstrap</a>
+                <a class="waves-effect" href="#!">fontawesome</a>
+            </div>
+        </li>
+    </ul>
 
-    <!-- Libs -->
-    <script src="assets/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
 
-    <!-- Demo -->
-    <script src="assets/js/demo.js"></script><script src="assets/js/analytics.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
